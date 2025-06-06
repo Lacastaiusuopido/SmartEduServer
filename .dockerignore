@@ -1,0 +1,39 @@
+SmartEduServer/venv
+SmartEduServer/__pycache__
+SmartEduServer/.git
+SmartEduServer/.idea
+
+front-end-new/.git
+front-end-new/dist 
+front-end-new/.vscode
+front-end-new/.idea
+front-end-new/node_modules
+
+# 版本控制
+**/.git
+**/.gitignore
+**/.gitattributes
+
+# Python虚拟环境相关 - 必须忽略
+**/env/
+**/venv/
+**/.venv/
+**/.Python
+**/pip-log.txt
+**/pip-delete-this-directory.txt
+
+# Python缓存文件 - 必须忽略
+**/__pycache__
+**/*.pyc
+**/*.pyo
+**/*.pyd
+
+# 前端相关
+**/node_modules
+**/dist        # 因为在容器中会重新构建
+**/build
+**/.npm
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+
